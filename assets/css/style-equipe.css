@@ -1,0 +1,252 @@
+/*Website Template by freewebsitetemplates.com*/
+@font-face {
+	font-family: 'Arapey';
+	src: url('../fonts/Arapey/Arapey-Regular.eot');
+	src: url('../fonts/Arapey/Arapey-Regular.woff') format('woff'), url('../fonts/Arapey/Arapey-Regular.ttf') format('truetype'), url('../fonts/Arapey/Arapey-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light/OpenSans-Light.eot');
+	src: url('../fonts/OpenSans-Light/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light/OpenSans-Light.ttf') format('truetype'), url('../fonts/OpenSans-Light/OpenSans-Light.svg') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/OpenSans-Regular/OpenSans-Regular.eot');
+	src: url('../fonts/OpenSans-Regular/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans-Regular/OpenSans-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.eot');
+	src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.woff') format('woff'), url('../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf') format('truetype'), url('../fonts/OpenSans-Semibold/OpenSans-Semibold.svg') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/OpenSans-Bold/OpenSans-Bold.eot');
+	src: url('../fonts/OpenSans-Bold/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans-Bold/OpenSans-Bold.svg') format('svg');
+}
+#body .body .section .article h2 {
+	clear: both;
+	color: #ef414a;
+	font-family: 'Arapey';
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 22px;
+}
+#body .body .section .article p {
+	color: #797979;
+	float: left;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 17px 0 0;
+	width: 363px;
+}
+#body .body .section .article p a {
+	color: #797979;
+	text-decoration: underline;
+}
+#body .body .section .article p a:hover {
+	color: #333;
+}
+#body > .section h2 {
+	padding: 0 0 0 29px;
+}
+#body > .section p {
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0;
+	padding: 18px 29px 29px;
+}
+#body > .section p a {
+	color: #797979;
+	text-decoration: underline;
+}
+#body > .section p a:hover {
+	color: #333;
+}
+#body > .section > div > div small {
+	color: #797979;
+	display: block;
+	font-family: 'OpenSans-Semibold';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+#body > .section span {
+	display: block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body > .section span a {
+	background: url(../ico/icons.png) no-repeat;  /*icones da imagem*/
+	display: block;
+	float: left;
+	height: 18px;
+	margin: 0 4px 0 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 20px;
+}
+#body > .section span .facebook {
+	background-position: -4px -93px;
+}
+#body > .section span .facebook:hover {
+	background-position: -32px -93px;
+}
+#body > .section span .twitter {
+	background-position: -4px -116px;
+}
+#body > .section span .twitter:hover {
+	background-position: -32px -116px;
+}
+#body > .section span .linkedIn {
+	background-position: -4px -139px;
+}
+#body > .section span .linkedIn:hover {
+	background-position: -32px -139px;
+}
+#body > .section span .email {
+	background-position: -4px -162px;
+}
+#body > .section span .email:hover {
+	background-position: -32px -162px;
+}
+#body > .section > ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 23px 9px 0;
+}
+#body > .section > ul li {
+	float: left;
+	list-style: none;
+	margin: 0 18px;
+	padding: 0;
+	text-align: center;
+	width: 79px;
+}
+#body > .section > ul li > a {
+	color: #797979;
+	font-family: 'OpenSans-Bold';
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#body > .section > ul li > a img {
+	border: 0;
+	display: block;
+}
+#body > .section > ul li > a span {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#body > .section > ul li > a:hover {
+	color: #ef414a;
+	opacity: 0.8;
+}
+#body .section ul.article {
+	margin: 0;
+	padding: 28px 11px 45px 15px;
+}
+#body .section ul.article li {
+	border: 1px solid #cdcdcd;
+	border-radius: 6px;
+	float: left;
+	list-style: none;
+	margin: 0 14px 0 13px;
+	padding: 0 0 22px;
+	text-align: left;
+	width: 198px;
+}
+#body .section ul.article li img {
+	border-bottom: 1px solid #cdcdcd;
+	display: block;
+	margin: 0 0 10px;
+}
+#body .section ul.article li b {
+	display: block;
+	font-family: 'Arapey';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 19px;
+}
+#body .section ul.article li b a {
+	color: #144879;
+	line-height: 24px;
+	text-decoration: none;
+}
+#body .section ul.article li b a:hover {
+	color: #ef414a;
+}
+#body .section ul.article li small {
+	color: #797979;
+	display: block;
+	font-family: 'OpenSans-Semibold';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 19px;
+	text-transform: capitalize;
+}
+#body .section ul.article li p {
+	margin: 0;
+	padding: 0 19px;
+}
+#body .section ul.article li span {
+	padding: 7px 0 0 19px;
+}
+div#red{
+	height:670px;
+	width:1140px; 
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px 10px 10px 10px;
+}
+div#body{
+	height:580px;
+	width:750px; 
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px 10px 10px 10px;
+}
+section#equipe {
+	width: 1000px;
+	margin: auto;
+}
+#equipe h1{
+	
+}
+#equipe p{
+	text-align: center;
+	size: 13px;
+}
+iframe#equipe{
+	height: 550px;
+	width: 830px;
+}
+
+#equipe h1{
+	font-family: 'Lobster', sans-serif;
+	font-size: 24pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+#equipe h2{
+	font-family: 'Droid Sans', sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+}

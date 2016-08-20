@@ -28,6 +28,9 @@
        <link rel="stylesheet" href="assets/flexslider/flexslider.css">
         <link rel="stylesheet" href="assets/css/form-elements.css">
         <link rel="stylesheet" href="assets/css/style.css">
+		
+		 <link rel="stylesheet" href="assets/css/style-equipe.css">
+		
         <link rel="stylesheet" href="assets/css/media-queries.css">
 		<link rel="stylesheet"  href="assets/css/estilo.css"/>
 		
@@ -69,13 +72,16 @@
 							<a href="index.html#sobre"><i class="fa fa-eye"></i><br>Sobre</a>
 						</li>	
 						<li>
-							<a href="index.html#equipe"><i class="fa fa-user"></i><br>Equipe</a>
+							<a href="index.html#equipe"><i class="fa fa-users" aria-hidden="true"></i></i><br>Equipe</a>
 						</li>
 						<li>
 							<a href="index.html#ensino"><i class="fa fa-tasks"></i><br>Ensino</a>
 						</li>
 						<li>
 							<a href="index.html#contato"><i class="fa fa-envelope"></i><br>Contato</a>
+						</li>
+						<li>
+							<a href="index.html#contato"><i class="fa fa-map-marker" aria-hidden="true"></i><br>Endereço</a>
 						</li>
 					</ul>
 				</div>
@@ -128,8 +134,9 @@
             </div>
 		    <img src="assets/img/Des_img.png" id="luz" onmousemove="acende()" onmouseout="apaga()" usemap="#meumapa"/>
 			 <map name="meumapa" id="luz" onmousemove="acende()" onmouseout="apaga()">
-				<area shape="rect" coords="0, 0, 60, 60" href="fotos.html"/>
+				<area shape="rect" coords="0, 0, 60, 60" href="fotos.html" target="_black"/>
 		    </map>
+			<br/>&nbsp;
         </div>
 
 		<!-- Textos -->
@@ -164,38 +171,29 @@
 			</div>
 			
 		</article>
-			
+		
+		<!-- Equipe -->	
 		<article id="equipe">
-		<h1>Equipe</h1>
-		<p>
-			Os vários costumes de celebração de aniversários natalícios das pessoas hoje em dia têm 
-			uma longa história. Suas origens acham-se no domínio da mágica e da religião[1] [2] . O
-			s costumes de dar parabéns, dar presentes e de celebração - com o requinte de velas aces
-			as - nos tempos antigos eram para proteger o aniversariante de demônios e garantir segura
-			nça no ano vindouro. Até o quarto século, o Cristianismo rejeitava a celebração de aniver
-			sário natalício, pois o consideravam como um costume pagão.[3] É interessante notar que na
-			bíblia há a narrativa de apenas duas festas de aniversário, em Gênesis 40:20 e Mateus 14:6
-			e sobre estes eventos um dos pais da igreja, “Orígenes [escritor do terceiro século EC]... 
-			insiste em que 'dentre todas as pessoas santas nas Escrituras, não se registra nenhuma del
-			as como tendo guardado uma festa ou realizado um grande banquete em seu aniversário natalíc
-			io. São apenas os pecadores (como Faraó e Herodes) que fazem grandes festejos quanto ao dia 
-			em que nasceram neste mundo cá embaixo.</p>
-			
-
-		<p>
-			Este livro também explica a origem de muitos costumes relacionados com aniversários natalícios. Por exemplo:
-			"O motivo [de se usarem velas] remonta aos antigos gregos e romanos, que criam que círios ou velas tinham qualidades 
-			mágicas. Eles oravam e faziam pedidos a ser levados para os deuses pelas chamas das velas. Os deuses enviariam então 
-			suas bênçãos e talvez respondessem às orações."</p>  
-			
-			<div align="right"> 
-			<form action="index.html" method="get">
-				<button type="submit" class="btn">Ir para cima</button>
-			</form>
+			<div class="page-title-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 wow fadeIn">
+							<i class="fa fa-users" aria-hidden="true"></i>
+								<h1>Equipe /</h1>
+									<p>Abaixa a barra para ver todos os membros da equipe</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			
+			<br/>
+			<iframe src="equipe.html" name="janela" id="equipe"></iframe>
+			<div align="right"> 
+				<form action="index.html" method="get">
+					<button type="submit" class="btn">Ir para cima</button>
+				</form>
+			</div>
 		</article>
-
+		<!-- Fim Equipe -->	
 		
 		<article id="ensino">
 		<h1>Ensino</h1>
@@ -274,7 +272,21 @@
 							</form>
 						</div>
 						<div class="col-sm-5 contact-address wow fadeInUp">
-							<h3>Estamos aqui</h3>
+						<br/><br/>
+							<div class="page-title-container">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-12 wow fadeIn">
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+											<h1>Estamos aqui /</h1>
+											<p>Você pode nos encontrar nesse endereço</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+						
+							<h3></h3>
 							<div class=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.8953194449423!2d-43.999615006297134!3d-19.938279306177094!2m3!1f90!2f0!3f0!3m2!1i1024!2i768!4f20!3m3!1m2!1s0xa6965ceade4c53%3A0x4980bb6236578f78!2sCEFET-MG+-+Campus+II!5e1!3m2!1spt-BR!2sbr!4v1469753127292" width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 							<h3>Endereço</h3>
 							Av. Amazonas <br> 7675, Belo Horizonte, Brasil <br>
@@ -298,7 +310,17 @@
 		   <header id="rodape">
 				<footer id="footer">
 					</br>
-					<h1>Midias Sociais e Moodle</h1>
+					<div class="page-title-container">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-12 wow fadeIn">
+											<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+											<h1>Midias /</h1>
+											<p>Sigua-nos no Facebook e não deixe de se inscrever para as aulas livre através do nosso portal virtual moodle</p>
+										</div>
+									</div>
+								</div>
+							</div>
 					
 					</br></br>
 					<p align ="center">

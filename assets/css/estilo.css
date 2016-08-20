@@ -11,7 +11,7 @@ body {
 	
 }
 div#limite{
-	width:1300px; 
+	width:1200px; 
 	background-color: #ffffff;
 	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -32,87 +32,19 @@ a {
 
 
 header#rodape h1{
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 30pt;
+	font-family: 'Lobster', sans-serif;
+	font-size: 24px;
 	color: #606060;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	padding: 0px;
 	margin-bottom: 0px;
 }
-
-header#rodape h2{
-	font-family: 'Titillium Web', sans-serif;
-	color: #888888;
-	font-size: 15pt;
-	padding: 0px;
-	margin-top: 0px;
-}	
-
-
+	
 header#rodape p{
 	text-align: center;
-}
-header#cabecalho {
-	border-bottom: 1px #dddddd solid;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-	height: 150px;
-}
-
-header#cabecalho h1{
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 30pt;
-	color: #606060;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-	padding: 0px;
-	margin-bottom: 0px;
-}
-
-/* Formatação do Menu*/
-
-nav#menu {
-	display: block;
+	size: 13px;
 
 }
-
-
-nav#menu ul {
-	list-style: none;
-	text-transform: uppercase;
-	position: relative;
-	top: -20px;
-	left: 100;
-}
-
-nav#menu li {
-	display: inline-block;
-	background-color: #dddddd;
-	padding: 20px;
-	margin: 50px;
-	transition: background-color 1s;
-}
-
-nav#menu li:hover {
-	background-color:#606060;
-
-}
-
-nav#menu h1 {
-	display: none;
-}
-
-nav#menu a {
-	color: #000000;
-	text-decoration: none;
-}
-
-nav#menu a:hover {
-	color: #ffffff;
-	text-decoration: underline;
-}
-
-
-
-
 
 
 
